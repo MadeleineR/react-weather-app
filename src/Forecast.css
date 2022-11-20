@@ -1,0 +1,87 @@
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 850px;
+    margin: auto;
+}
+
+.day-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 1.1em;
+    margin: 0.3em;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.day-container h4 {
+    font-size: 0.95rem;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: .5px;
+    margin-bottom: 0;
+}
+
+.day-container:last-of-type {
+    border: none;
+}
+
+.day-header {
+    margin: 2em 0;
+}
+
+.temp-and-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+}
+
+.day-icon {
+    background-color: deepskyblue;
+    border-radius: 40px;
+}
+
+.day-desc {
+    width: 100%;
+    text-align: center;
+}
+
+.day-desc p {
+    margin: 0;
+}
+
+.temperature {
+    font-family: var(--header-font-family);
+    font-size: 3.75rem;
+    line-height: 1.2;
+    margin: 0 0 0 .3em;
+}
+
+.temperature::after {
+    content: ' °C';
+    font-size: 15px;
+}
+
+.condition {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.day-details {
+    color: #444444;
+    line-height: 1.7;
+    font-size: .9rem;
+}
+
+.day-details p {
+    margin: 0;
+}
+
+.day-details p span {
+    display: block;
+}

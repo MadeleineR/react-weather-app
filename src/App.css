@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap');
+
+:root {
+  --main-font-family: 'Fira Sans', sans-serif;
+  --header-font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+}
+
+body {
+  font-family: var(--main-font-family);
+  background-image: url("/sky.jpg");
+  background-size: cover;
+}
+
+.app-title {
+  color: #e66d4b;
+  text-align: center;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 1.5em 0;
+}
